@@ -2,20 +2,28 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
+*.pyc
 .Python
 
 # Virtual environment
 venv/
+.venv/
 env/
 ENV/
 
 # Flask
 instance/
 .env
+*.log
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Projeto específico
+tarefas.json
